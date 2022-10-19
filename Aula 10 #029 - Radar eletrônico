@@ -1,0 +1,8 @@
+km = float(input('Qual a velocidade do carro:'))
+if km<60:
+    print('O carro está dentro da velocidade permitida')
+
+else:
+    print('O carro está acima do limite permitido! Multa ')
+    multa = (km-60)*7
+print(f'Multado, você deverá pagar o valor de R${multa}')
