@@ -1,0 +1,6 @@
+nota = float(input('Digite um valor:'))
+nota2 = float(input('Digite outro valor:'))
+
+s = nota + nota2/2
+
+print(f'A nota no primeiro semestre foi {nota} e do segundo foi {nota2}, a média do aluno é {s}')
