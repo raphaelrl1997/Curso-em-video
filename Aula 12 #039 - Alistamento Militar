@@ -1,0 +1,32 @@
+from datetime import date
+atual = date.today().year
+data = int(input('Digite a data de nascimento:'))
+idade = atual - data
+
+sexo = int(input("""Digite seu sexo:
+[1] Masculino 
+[2] Feminino
+"""))
+
+print(f'Quem nasceu em {data} tem {idade} anos em {atual}')
+
+if idade >= 18 and sexo == 2:
+    print(f'Mulheres não precisam se alistar a menos que você queira.')
+
+elif idade <= 18 and sexo == 2:
+    saldo= 18 - idade
+    print(f""" Você ainda não possui 18 anos. E não precisa cumprir serviço militar obrigatório. 
+Caso queira seguir carreira militar no futuro volte em {saldo} anos""")
+
+elif idade == 18 and sexo == 1:
+    saldo = idade + 18
+
+elif idade > 18 and sexo ==1:
+    saldo = idade - 18
+    print(f'Você tem {idade} anos e precisa se alistar IMEDIATAMENTE!')
+    print(f'Você deveria ter se alistado em {saldo}')
+
+elif idade < 18 and sexo ==1:
+    saldo = 18 - idade
+    print(f'Faltam {saldo} anos para seu alistamento.')
+    print(f'Seu alistamento será em {saldo} anos.')
