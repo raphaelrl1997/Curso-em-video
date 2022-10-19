@@ -1,0 +1,21 @@
+n = int(input('Digite um número inteiro:'))
+
+print('''Escolha uma das bases para conversão:'
+
+Opção [1] converter para binário
+      
+Opção [2] converter para octal
+      
+Opção [3] converter para hexadecimal''')
+
+
+opçao = int(input('Sua opção:'))
+
+if opçao == 1:
+    print(f'{n} convertido para binário é igual a {bin(n)[2:]} ')
+elif opçao == 2:
+    print(f'{n} convertido para Octal é igual a {oct(n)[2:]}')
+elif opçao == 3:
+    print(f'{n} convertido para é igual a {hex(n)[2:]}')
+else:
+    print('Opção inválida, Escolha uma opção válida')
