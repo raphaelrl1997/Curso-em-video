@@ -1,0 +1,11 @@
+n = input('Olá, qual seu nome?')
+
+d = input('Digite o dia em que nasceu:')
+
+m = input('Digite o mês em que nasceu:')
+
+a = input('Digite o ano em que nasceu:')
+
+meses = ['Janeiro', 'Fevereiro', 'Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+
+print(f'{n}, você nasceu em {d} de {meses[int(-1)]} de {a} ')
