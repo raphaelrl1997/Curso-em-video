@@ -1,0 +1,5 @@
+real = float(input(f'Digite o valor que você tem na carteira:'))
+dolar = real / 5.18
+euro = real / 5.12
+
+print(f'Com {real:.2f} de reais você pode comprar {dolar:.2f} de Dólares. E {euro:.2f} de Euros')
