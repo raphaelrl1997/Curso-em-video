@@ -1,0 +1,3 @@
+real = float(input('Digite um valor:'))
+
+print(f'O Valor digitado foi {real} sua porção inteira é: {int(real)}')
