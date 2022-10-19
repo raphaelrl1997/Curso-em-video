@@ -1,0 +1,14 @@
+"""import pygame
+pygame.init()
+
+pygame.mixer.music.load('ex021.mp3')
+pygame.mixer.music.play()
+input('ex021.mp3')
+pygame.event.wait()
+
+parar = input('Digite p para música parar e c para continuar')
+"""
+
+import playsound
+
+playsound.playsound('ex021.mp3')
