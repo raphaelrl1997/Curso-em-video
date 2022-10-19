@@ -1,0 +1,10 @@
+""""
+import math
+num = int(input('Digite um número:'))
+raiz = math.sqrt(num)
+
+print(f'A raíz de {num} é {math.ceil(raiz):.2f}')
+"""
+import emoji
+
+print(emoji.emojize('Olá mundo 👽'))
