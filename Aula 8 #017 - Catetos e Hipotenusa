@@ -1,0 +1,9 @@
+from math import hypot
+op = float(input('Comprimento do cateto oposto:'))
+ad = float(input('Comprimento do cateto adjacente:'))
+"""hi = (op ** 2 + ad ** 2) ** (1/2)
+
+print(f'A medida da hipotenusa é {hi:.2f}')"""
+# Forma com importação
+hi = hypot(op, ad)
+print(f'A medida da Hipotenusa será de {hi:.2f}')
