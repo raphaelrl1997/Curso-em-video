@@ -1,0 +1,7 @@
+nome = input('Digite seu nome:').strip()
+
+print(f'Tudo maiúsculo: {nome.upper()}')
+print(f'Tudo minúsculo {nome.lower()}')
+lista = (nome.split())
+print(f'O primeiro nome possui {nome.find(" ")} de letras')
+print(f'O nome inteiro possui {len(nome) - nome.count(nome)} de letras')
