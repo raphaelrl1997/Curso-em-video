@@ -1,0 +1,8 @@
+soma = 0
+num = 0
+for c in range(1, 7):
+    pares = int(input('Digite um valor:'))
+    if pares % 2 == 0:
+        soma += num
+        num += 1
+print(f'Você informou {num} numeros e a soma foi {soma}')
