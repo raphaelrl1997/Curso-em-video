@@ -1,4 +1,5 @@
 total = totmil = menor = cont = 0
+barato = ' '
 while True:
     produto = str(input('Digite o produto:'))
     preço = float(input('Preço: R$'))
